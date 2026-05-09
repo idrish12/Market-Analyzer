@@ -33,3 +33,6 @@ def simulate_trade(self, entry, stop_loss, take_profit):
 """Executes a paper trade using the historical data leg"""
 
 risk = abs(entry - stop_loss)
+
+reward = abs(take_profit - entry)
+
