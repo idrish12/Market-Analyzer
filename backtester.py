@@ -17,3 +17,8 @@ self.trades = []
 self.win_rate = 0.0
 
 self.total_profit = 0.0
+
+def load_tradingview_data(self, filepath):
+
+"""Loads CSV data exported directly from TradingView charts"""
+
