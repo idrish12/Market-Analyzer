@@ -36,3 +36,4 @@ risk = abs(entry - stop_loss)
 
 reward = abs(take_profit - entry)
 
+rr_ratio = reward / risk if risk != 0 else 0
