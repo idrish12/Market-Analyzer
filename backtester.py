@@ -23,3 +23,5 @@ def load_tradingview_data(self, filepath):
 """Loads CSV data exported directly from TradingView charts"""
 
 print(f"Loading historical chart data from {filepath}...")
+
+# self.data = pd.read_csv(filepath)
