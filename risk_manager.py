@@ -11,3 +11,5 @@ class RiskManager:
 self.balance = account_balance
 
         self.max_risk_percent = 0.01  # Default 1% risk per trade
+
+def calculate_position_size(self, entry_price, stop_loss):
