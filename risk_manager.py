@@ -7,3 +7,7 @@ from config import config_data
 class RiskManager:
 
     def __init__(self, account_balance):
+
+self.balance = account_balance
+
+        self.max_risk_percent = 0.01  # Default 1% risk per trade
