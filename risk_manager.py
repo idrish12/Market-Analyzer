@@ -19,3 +19,11 @@ def calculate_position_size(self, entry_price, stop_loss):
 risk_amount = self.balance * self.max_risk_percent
 
 price_risk = abs(entry_price - stop_loss)
+
+if price_risk == 0:
+
+            return 0
+
+        size = risk_amount / price_risk
+
+        return round(size, 4)
