@@ -5,3 +5,5 @@ from risk_manager import RiskManager
 # Simulating execution on historical order block tap
 
 class StrategyTester:
+
+def __init__(self, trading_pair="BTC/USDT"):
