@@ -15,3 +15,5 @@ self.pair = trading_pair
 self.risk_module = RiskManager(1000)
 
     def load_historical_data(self):
+
+print(f"Fetching order block history for {self.pair}...")
