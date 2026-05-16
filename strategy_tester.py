@@ -30,3 +30,8 @@ print("Scanning for Fair Value Gaps (FVG)...")
 
         for price in market_data:
                 
+if price < 63000:
+
+                print("Price entered deep discount zone.")
+
+                size = self.risk_module.calculate_position_size(price, 62000)
