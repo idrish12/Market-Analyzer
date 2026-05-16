@@ -25,3 +25,8 @@ return [63500, 63000, 64200, 62800]
 self.is_running = True
 
         market_data = self.load_historical_data()
+
+print("Scanning for Fair Value Gaps (FVG)...")
+
+        for price in market_data:
+                
