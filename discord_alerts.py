@@ -29,3 +29,5 @@ headers = {
 try:
 
         response = requests.post(WEBHOOK_URL, data=json.dumps(payload), headers=headers)
+
+if response.status_code == 204:
