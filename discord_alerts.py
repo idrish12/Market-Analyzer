@@ -35,3 +35,6 @@ if response.status_code == 204:
 print("Alert dispatched successfully.")
 
         else:
+
+print(f"Failed to dispatch. Status: {response.status_code}")
+
