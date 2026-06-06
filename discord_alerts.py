@@ -38,3 +38,6 @@ print("Alert dispatched successfully.")
 
 print(f"Failed to dispatch. Status: {response.status_code}")
 
+except Exception as e:
+
+        print(f"Webhook error: {e}")
